@@ -33,8 +33,8 @@ def plot_polar_coordinates(polar_coords):
     x_coords = [r * math.cos(theta) for r, theta in polar_coords]
     y_coords = [r * math.sin(theta) for r, theta in polar_coords]
 
-    plt.figure(figsize=(12, 12), facecolor='#1f1f1f')
-    plt.scatter(x_coords, y_coords, c='#00bfff', marker='o', s=1)  # 明るい青系の色に変更
+    plt.figure(figsize=(12.8, 12.8), facecolor='#1f1f1f')
+    plt.scatter(x_coords, y_coords, c='#00bfff', marker='o', s=2)
     plt.xlabel('X', color='white')
     plt.ylabel('Y', color='white')
     plt.title('Polar Coordinates (r, θ) (r = θ)', color='white')
@@ -42,12 +42,16 @@ def plot_polar_coordinates(polar_coords):
     plt.gca().set_facecolor('#1f1f1f')
     plt.gca().tick_params(colors='white')  # x, y座標の数値を白にする
     plt.axis('equal')
+
+    # 画像ファイルに保存
+    filename = 'image.png'
+    plt.savefig(filename, facecolor='#1f1f1f')
     plt.show()
 
 
 
 if __name__ == "__main__":
-    MAX = 1000 # MAXまでの素数を求める
+    MAX = 10000 # MAXまでの素数を求める
     result = polar_coordinates(MAX)
     print(result)
 
