@@ -1,7 +1,7 @@
 '''
 参考サイト
 https://math.stackexchange.com/questions/885879/meaning-of-rays-in-polar-plot-of-prime-numbers/885894
-https://www.youtube.com/watch?v=CJpyguRJfeM&t=118s&ab_channel=3Blue1BrownJapan
+https://www.youtube.com/watch?v=EK32jo7i5LQ&ab_channel=3Blue1Brown
 '''
 
 import math
