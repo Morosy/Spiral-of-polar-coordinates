@@ -1,5 +1,6 @@
 # Spiral-of-polar-coordinates
 ## 素数の螺旋
+Google Colabおよびローカル環境の両方で実行が可能です．
 
 #### 参考サイト
 https://www.youtube.com/watch?v=EK32jo7i5LQ&ab_channel=3Blue1Brown <br>
@@ -26,4 +27,3 @@ $$
 
 - [x] plot_polar_coordinates(polar_coords)
 リスト`polar_coords`を極座標として`(x, y)`平面に描画する関数.
-
